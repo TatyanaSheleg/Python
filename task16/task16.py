@@ -7,20 +7,20 @@
 #     3
 #     -> 1
 
-n=int (input ("введите кол-во элементов в массиве: "))
+n = int(input("введите кол-во элементов в массиве: "))
 
-list=[]
+list = []
 
-for i in range (n):
+for i in range(n):
     list.append(i+1)
 
-print (list)
+print(list)
 
-x=int (input ("введите искомое число: "))
+x = int(input("введите искомое число: "))
 
-count=0
+count = 0
 for i in list:
-    if i==x:
-        count+=1
-        
+    if i == x:
+        count += 1
+
 print(count)
