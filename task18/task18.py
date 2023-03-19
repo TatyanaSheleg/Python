@@ -18,17 +18,10 @@ print (list)
 
 x=int (input ("введите число: "))
 
-arr = list(map(int, input().split()))
-x = int(input())
+result=list[0]
  
-# eps = x
-# result = arr[0]
-# for i in arr:
-#     if abs(i - x) < eps:
-#         eps = abs(i - x)
-#         result = i
-# print(result)
+for i in list:
+    if i<=x:
+        result=i
 
-# for i in list:
-#     if list[i]<=x:   
-# print(list [i])
+print(result)
